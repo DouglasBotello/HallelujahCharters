@@ -1,0 +1,53 @@
+.title-text {
+	text-shadow: black 0px 0px 50px, black 0px 0px 50px;
+}
+
+#header-title {
+	font-size: .6em;
+}
+
+#landing-subtext {
+	font-size: 1.5em;
+}
+
+#gallery img {
+	max-width: 80%;
+	display: block;
+	margin: auto;
+}
+
+#facebook-link {
+	color: #3b5998;
+}
+
+.image-strip-col {
+	float: left;
+	width: 25%;	
+}
+
+.image-strip-img {
+	width: 100%;
+}
+
+#image-strip::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.facebook-review-iframe {
+	border: none;
+	overflow: hidden;
+}
+
+#about-homepage-image {
+	max-height: 800px;
+}
+
+.calendar-frame {
+	margin: auto;
+}
+
+.footer-divider {
+	margin-top: 0!important;
+}
