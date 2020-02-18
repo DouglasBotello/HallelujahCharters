@@ -1,15 +1,3 @@
-.title-text {
-	text-shadow: black 0px 0px 50px, black 0px 0px 50px;
-}
-
-#header-title {
-	font-size: .6em;
-}
-
-#landing-subtext {
-	font-size: 1.5em;
-}
-
 #gallery img {
 	max-width: 80%;
 	display: block;
@@ -55,3 +43,47 @@
 .service-header {
 	color: #008F95;
 }
+
+// Mobile Styling
+
+#header-title {
+	font-size: .6em;
+}
+
+@media only screen and (max-width: 470px) {
+	#header-title {
+		font-size: .35em;
+	}
+}
+
+.hamburger-div {
+
+}
+
+@media only screen and (max-width: 470px) {
+	.hamburger-div {
+		padding-bottom: 0!important;
+		padding-top: 0!important;
+	}
+}
+
+.title-text {
+	text-shadow: black 0px 0px 50px, black 0px 0px 50px;
+}
+
+@media only screen and (max-width: 470px) {
+	.title-text {
+		font-size: 1.5rem!important;
+	}
+}
+
+#landing-subtext {
+	font-size: 1.5em;
+}
+
+@media only screen and (max-width: 470px) {
+	#landing-subtext {
+		font-size: 1em!important;
+	}
+}
+
