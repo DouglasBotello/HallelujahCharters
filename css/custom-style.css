@@ -10,7 +10,7 @@
 
 .image-strip-col {
 	float: left;
-	width: 25%;	
+	width: 25%;
 }
 
 .image-strip-img {
@@ -21,11 +21,6 @@
   content: "";
   clear: both;
   display: table;
-}
-
-.facebook-review-iframe {
-	border: none;
-	overflow: hidden;
 }
 
 #about-homepage-image {
@@ -43,6 +38,16 @@
 .service-header {
 	color: #008F95;
 }
+
+.testimonial-row {
+	text-align: center;
+}
+
+.owl-stage {
+	display: flex;
+	align-items: center;
+}
+
 
 // Mobile Styling
 
@@ -87,3 +92,14 @@
 	}
 }
 
+.facebook-review-iframe {
+	border: none;
+	overflow: hidden;
+}
+
+@media only screen and (max-width: 470px) {
+	.facebook-review-iframe {
+		width: 300px!important;
+		height: 600px!important;
+	}
+}
