@@ -51,6 +51,16 @@
 
 // Mobile Styling
 
+#doug-header-background {
+
+}
+
+@media only screen and (max-width: 470px) {
+	#doug-header-background {
+		background-position: 11% 0%
+	}
+}
+
 #header-title {
 	font-size: .6em;
 }
