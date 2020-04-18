@@ -51,6 +51,16 @@
 
 // Mobile Styling
 
+#main-header-background {
+
+}
+
+@media only screen and (max-width: 470px) {
+	#main-header-background {
+		background-position: 65% 0%
+	}
+}
+
 #doug-header-background {
 
 }
